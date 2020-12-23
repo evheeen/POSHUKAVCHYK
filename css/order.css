@@ -1,0 +1,36 @@
+.cart__form--mt35 {
+    margin-top: 35px;
+}
+.cart__form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cart__form-data {
+    min-width: 30%;
+    padding: 0 30px 0 0;
+}
+.cart__form-label {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 35px;
+}
+.cart__input-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.cart__input-wrapper input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 10px 15px 15px 0;
+    height: 42px;
+    background-color: #fff;
+}
+.cart__input-wrapper:last-child {
+    margin-bottom: 0;
+}

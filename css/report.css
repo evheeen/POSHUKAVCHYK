@@ -1,0 +1,20 @@
+@media print {
+    .siteFotter{
+        display: none;
+    }
+    .site-header{
+        display: none;
+    }
+    .print{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    *{
+        font-size: 1rem;
+    }
+}
